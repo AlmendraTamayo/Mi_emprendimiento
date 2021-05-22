@@ -1,0 +1,21 @@
+.footer__button {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  background-color: $tangerine;
+  border-radius: 20%;
+  height: 2rem;
+  font-weight: $regular;
+  border: 2.5px solid $white;
+  padding: 0.2rem;
+  font-family: $poppins;
+  font-size: $small;
+
+  @include large {
+    margin-left: 1em;
+  }
+
+  &:hover {
+    background-color: $white;
+  }
+}
